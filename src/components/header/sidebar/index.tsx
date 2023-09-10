@@ -10,8 +10,8 @@ interface SidebarProps {
 const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
   return (
     <CSSTransition in={isOpen} timeout={300} classNames="sidebar">
-      <div className="sidebar">
-        <button className="close-button" onClick={onClose}>
+      <div className="sidebar bg-slate-600 border-cyan-50 border-4 ">
+        <button className="absolute top-2 right-2" onClick={onClose}>
           Close
         </button>
 

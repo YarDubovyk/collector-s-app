@@ -1,7 +1,8 @@
-import Image from 'next/image'
+import ContentWrapper from "@/components/content-wrapper"
+
 
 export default function Home() {
   return (
-  <div>index</div>
+  <ContentWrapper/>
   )
 }
